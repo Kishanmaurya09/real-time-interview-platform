@@ -1,0 +1,29 @@
+
+# Dependencies
+node_modules/
+
+# Environment files - never upload secrets
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+!client/.env.example
+!server/.env.example
+
+# Build files
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+server/temp/
